@@ -1,0 +1,367 @@
+/*
+ Theme Name:   Twenty Twenty One Child
+ Description:  Twenty Twenty One Child Theme
+ Author:       Jack Meyer
+ Template:     twentytwentyone
+ Version:      1.4
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #3A4C58 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight:800 !important;
+}
+
+p {
+    font-size: 16px !important;
+}
+
+section {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.pdt40 {
+    padding-top: 40px;
+}
+
+.pdb40 {
+    padding-bottom: 40px;
+}
+
+.grey-bg {  
+    background-color: rgba(211, 211, 211, 0.199);
+    max-width: 100% !important;
+    padding: 0px !important;
+}
+
+.blue-bg {
+    padding: 0px !important;
+    background-color:#3A4C58 !important;
+    max-width: 100% !important;
+}
+
+.outside-container {  
+    max-width: 90% !important;
+    margin: auto !important;
+}
+
+
+.section-header {
+    text-align: left;
+    margin-left: 34px !important;
+    max-width: 90% !important;
+    margin: auto !important;
+}
+
+.section-header-center {
+    text-align: center;
+    margin: auto !important;
+}
+
+.tac {
+    text-align: center !important;
+}
+
+.text-blue {
+    color: #3A4C58 !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.max70 {
+    max-width: 800px;
+}
+
+.max30 {
+    max-width: 400px;
+}
+
+.max50 {
+    max-width: 600px;
+}
+
+.max350 {
+    max-width: 350px;
+}
+
+.w241 {
+    min-width: 241px;
+    min-height: 1px;
+}
+/* Header Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+.site-main {
+    padding-top: 0 !important;
+}
+
+.site-header {
+    padding: 15px !important;
+    align-items: center !important;
+    max-width: 95% !important;
+}
+
+
+.primary-navigation a {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight:700 !important;
+    color: #3A4C58 !important;
+    font-size: 14px !important;
+}
+
+.primary-navigation {
+    margin: auto !important;
+}
+
+.menu-item {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+.nav-button-area {
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+}
+
+@media only screen and (max-width: 1290px) {
+    .nav-button-area {
+    display: none;
+    }
+}
+    
+.nav-button-darkbg {
+    background-color: #3A4C58 !important;
+    padding: 1px 40px 1px 40px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.nav-button-darkbg:hover {
+    padding: 1px 40px 1px 40px;
+    font-size: 16px;
+    border-radius: 25px;
+    border-color: white;
+    color: white;
+}
+
+.nav-button-lightbg {
+    background-color: #ffff !important;
+    color: #3A4C58 !important;
+    border-color: #3A4C58 !important;
+    padding: 1px 40px 1px 40px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+    .v-sep {
+    width: 2px;
+    background-color: #3A4C58;
+    height: 50px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 1290px) {
+    .v-sep {
+    display: none;
+}
+}
+
+.fas {
+    color: #3A4C58;
+}
+ 
+    .cart {
+    padding: 8px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 1290px) { 
+    .cart {
+    display: none;
+}
+}
+/* Category Sections Styles */
+.category-section-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100% !important;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.category-section {
+    text-align: center;
+  }
+
+.category-text-area {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.category-heading {
+      font-size: 20px;
+      color: #357EB3 !important;
+  }
+
+.category-p {
+    font-size: 12px;
+    color: grey !important;
+    font-weight: bold;
+}
+
+/* Values Sections  */
+.value-blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.value-block {
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.fa-arrow-up, .fa-arrow-down {
+    margin-right: 5px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    padding: 40px;
+    background-color: #3A4C58;
+    border-radius: 25px;
+    color: white;
+}
+
+.review-image {
+    width: 210px;
+    margin-top: -161px;
+    margin-left: 257px;
+}
+
+.review-content {
+    margin-top: -55px;
+}
+/* Hightlighted Heading */
+.highlighter-1 {
+    background: linear-gradient(to right, #FEAE45, transparent 90%);
+    border-radius: 50px;
+    max-height: 21px;
+    max-width: 290px;
+}
+
+.highlighter-2 {
+    background: linear-gradient(to right, #FEAE45, transparent 90%);
+    border-radius: 50px;
+    max-height: 21px;
+    max-width: 767px;
+}
+
+@media only screen and (max-width: 462px) {
+.highlighter-2 {
+    margin-left: -10px;
+}
+}
+/* Connect With Us Section */
+.connect-header {
+    text-align: left;
+    max-width: 90% !important;
+}
+
+.fa-paw {
+    margin-left: 5px;
+}
+
+/* form */
+.form-container {
+    padding: 20px;
+    border-radius: 15px !important;
+    background-color: #3A4C58;
+    color: white;
+}
+
+.form-header {
+    margin-bottom: 10px !important;
+}
+
+.bc-white {
+    border: none !important;
+    border-radius: 2px !important;
+    width: 100% !important;
+}
+
+.mh26 {
+    max-height: 26px !important;
+    margin-bottom: 10px !important;
+}
+
+.mh80 {
+    max-height: 80px !important;
+}
+
+.form-font {
+    font-size: 12px !important;
+    font-weight: 800 !important;
+}
+
+.form-button {
+    background-color: white !important;
+    width: 100% !important;
+    height: 30px !important;
+    border-radius: 25px !important;
+    color: #3A4C58 !important;
+    text-align: center !important;
+    padding: 0px !important;
+    margin-top: 20px;
+}
+
+/* Newsletter */
+.newsletter-input {
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    width: 250px;
+    height: 34px;
+}   
+
+.newsletter-button {
+    font-size: 11px !important;
+    background-color: #FFAB41 !important;
+    color: #3A4C58 !important;
+    height: 34px !important;
+    width: 110px !important;
+    border: none !important;
+    border-radius: 25px !important;
+    font-weight: 800 !important;
+    padding: 1px 1px 1px 1px !important;
+    margin-left: 10px;
+}
+
+/* Footer */
+.widget-area {
+    grid-template-columns: repeat(4, 1fr) !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+.widget-area a {
+    text-decoration: none !important;
+}
+
+.footer-menu-column {
+    margin-bottom: 60px;
+}
